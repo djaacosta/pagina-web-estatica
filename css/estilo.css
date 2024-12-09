@@ -1,0 +1,251 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    margin: 40px;
+    background-color: #b9dbec;
+}
+.logo {
+    max-width: 50px;
+    
+}
+hr {
+    margin: 20px 0;
+}
+/*estilo del menu*/
+.menu-nav { 
+    
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    
+    list-style: none;
+    display: flex;
+    padding: 0 20px;
+    gap: 10px;
+}
+.btn-menu {
+list-style: none;
+text-decoration: none;
+font-weight: bold;
+color: black;
+padding: 5px;
+}
+.activo {
+    background-color: #188DC6;
+    color: white;
+    border: 1PX solid;
+    border-radius: 5PX;
+}
+.btn-menu:hover{
+    color: #188DC6;
+}
+
+
+/*estilo del pie*/
+.pie {
+    background-color: #188DC6;
+    color: aliceblue;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
+}
+/*Estilos contenidos PG-inicio*/
+
+
+
+.contenedor_de_video{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap:130px;
+    text-align: center;
+    text-align: center;
+    padding: 100px;
+    text-align: center;
+
+
+
+.doc {
+ text-align: center;
+}
+    
+
+}
+
+
+
+
+.laboratorio0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.publicidad img {
+    display: block;
+    margin: 20px;
+    max-width: 100%;
+    width: 90%;
+}
+
+.bandeja {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.tarjeta {
+    text-align: center;
+    border: 2px solid rgb(29, 24, 24);
+    border-radius: 8px;
+    padding: 20px;
+
+}
+
+.tarjeta h3 {
+    color: #5b5555;
+}
+
+.tarjeta a {
+    text-decoration: none;
+}
+
+
+.laboratorio1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+    text-align: center;
+    
+
+}
+    
+.laboratorio2 {
+    text-align: center;
+    border: 2px solid rgb(29, 24, 24);
+    border-radius: 8px;
+    padding: 20px;
+
+
+}
+
+.animales1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 130px;
+    text-align: center;
+    text-align: center;
+    padding: 100px;
+    text-align: center;
+}
+
+/*estilos de la tabla*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #333;
+    color: #fff;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #e9e9e9;
+}
+caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+/*contactos*/
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+input[type="email"], input[type="tel"] {
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    font-family: Arial, sans-serif;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-submit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-submit:hover {
+    background-color: #45a049;
+}
+
+.btn-cancel {
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-cancel:hover {
+    background-color: #e53935;
+}
